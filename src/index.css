@@ -10,6 +10,11 @@
   --color-accent-light:#86c232;
 }
 
+#root{
+  background-color:var(--color-primary-dark);
+  height:100vh;
+  width:100vw;
+}
 
 .cursive{
   font-family:"Amatic SC","cursive";
@@ -26,7 +31,9 @@
   font-size:150px;
 }
 
-.bg-main{
+/* Nav Bar */
+
+.bg-nav{
   background-color:var(--color-primary-dark);
 }
 
@@ -42,6 +49,19 @@
   background-color:var(--color-primary-md);
 }
 
+
+/* Main Section */
+
+.bg-main{
+  background:var(--color-primary-dark);
+}
+
+.main-text-display{
+  padding-top:10%
+}
+
+/* Colors */
+
 .bright-accent-text{
   color:var(--color-accent-light);
 }
@@ -49,4 +69,3 @@
 .dark-accent-text{
   color:var(--color-accent-dark);
 }
-
