@@ -2,6 +2,15 @@
 @import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 
+:root{
+  --color-primary-dark:#222629;
+  --color-primary-md:#474b4f;
+  --color-primary-light:#6b6e70;
+  --color-accent-dark:#61892F;
+  --color-accent-light:#86c232;
+}
+
+
 .cursive{
   font-family:"Amatic SC","cursive";
   font-weight: 700;
@@ -15,5 +24,29 @@
 
 .home-name{
   font-size:150px;
+}
+
+.bg-main{
+  background-color:var(--color-primary-dark);
+}
+
+.nav-text{
+  color:var(--color-accent-light);
+}
+
+.nav-text:hover{
+  color:var(--color-accent-dark);
+}
+
+.nav-active{
+  background-color:var(--color-primary-md);
+}
+
+.bright-accent-text{
+  color:var(--color-accent-light);
+}
+
+.dark-accent-text{
+  color:var(--color-accent-dark);
 }
 
