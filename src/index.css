@@ -27,9 +27,7 @@
   border-radius: 5px;
 }
 
-.home-name{
-  font-size:150px;
-}
+
 
 /* Nav Bar */
 
@@ -57,7 +55,17 @@
 }
 
 .main-text-display{
-  padding-top:10%
+  padding-top:10rem;
+}
+
+.home-name{
+  font-size:150px;
+}
+
+@media(max-width:600px){
+  .home-name{
+    font-size:75px;
+  }
 }
 
 /* Colors */
