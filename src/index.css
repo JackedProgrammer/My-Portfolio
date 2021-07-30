@@ -68,6 +68,21 @@
   }
 }
 
+/* Blog */
+
+.blog-card{
+  border-width: 8px;
+  border-color: var(--color-primary-light);
+  border-radius:.25rem;
+}
+
+.blog-card-title{
+  border-radius:.25rem;
+  background-color: var(--color-primary-md);
+  font-size: 1.125rem;
+  line-height:1.75rem;
+}
+
 /* Colors */
 
 .bright-accent-text{
