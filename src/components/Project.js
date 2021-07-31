@@ -31,7 +31,7 @@ export default function Project(){
                                 {project.title}
                             </a>
                         </h3>
-                        <div className="dark-accent-text text-xs space-x-4">
+                        <div className="dark-accent-text text-s space-x-4">
                             <span>
                                 <strong className="font-bold">Finished on</strong>:{" "}
                                 {new Date(project.date).toLocaleDateString()}
@@ -41,7 +41,7 @@ export default function Project(){
                                 {project.projectType}
                             </span>
                             <p className="my-6 text-lg bright-accent-text leading-relaxed">{project.description}</p>
-                            <a href={project.link} alt={project.title} target="_blank" rel="noopener noreferrer" className="fold-bold project-card-text underline">
+                            <a href={project.link} alt={project.title} target="_blank" rel="noopener noreferrer" className="text-xl fold-bold project-card-text underline">
                                 View The Project{" "}
                                 <span role="img" aria-label="right pointer">👉</span>
                             </a>

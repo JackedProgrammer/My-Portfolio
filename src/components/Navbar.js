@@ -60,19 +60,22 @@ export default function Navbar(){
                     <NavLink 
                         to="/post"
                         activeClassName="nav-active"
-                        className="flex items-center px-3 my-3 rounded nav-text">
+                        className="flex items-center px-3 my-3 rounded nav-text"
+                        onClick={()=>setIsOpen(false)}>
                         Blog
                     </NavLink>
                     <NavLink
                         to="/project"
                         activeClassName="nav-active"
-                        className="flex items-center px-3 my-3 rounded nav-text">
+                        className="flex items-center px-3 my-3 rounded nav-text"
+                        onClick={()=>setIsOpen(false)}>
                         Projects
                     </NavLink>
                     <NavLink 
                         to="/about"
                         activeClassName="nav-active"
-                        className="flex items-center px-3 my-3 rounded nav-text">
+                        className="flex items-center px-3 my-3 rounded nav-text"
+                        onClick={()=>setIsOpen(false)}>
                         About Me
                     </NavLink>
                     <div className="flex py-3 py-3 my-6">
