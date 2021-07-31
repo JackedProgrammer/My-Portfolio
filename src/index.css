@@ -78,9 +78,23 @@
 
 .blog-card-title{
   border-radius:.25rem;
-  background-color: var(--color-primary-md);
+  background-color: var(--color-primary-light);
   font-size: 1.125rem;
   line-height:1.75rem;
+}
+
+/* Projects */
+
+.project-card{
+  background-color: var(--color-primary-md);
+}
+
+.project-card-text{
+  color:var(--color-accent-light)!important;
+}
+
+.project-card-text:hover{
+  color:var(--color-accent-dark)!important;
 }
 
 /* Colors */

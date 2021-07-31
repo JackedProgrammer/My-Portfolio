@@ -25,8 +25,8 @@ export default function Project(){
                 <h2 className="text-lg dark-accent-text flex justify-center mt-2 mb-12" >All of my projects</h2>
                 <section className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {projectData && projectData.map((project,index)=>(
-                    <article className="relative rounded-lg shadow-xl bg-white p-16">
-                        <h3 className="bright-accent-text text-3xl font-bold mb-2 hover:text-red-500">
+                    <article className="relative rounded-lg shadow-xl project-card p-16">
+                        <h3 className="project-card-text text-3xl font-bold mb-2">
                             <a href={project.link} alt={project.title} target="_blank" rel="noopener noreferrer">
                                 {project.title}
                             </a>
@@ -41,7 +41,7 @@ export default function Project(){
                                 {project.projectType}
                             </span>
                             <p className="my-6 text-lg bright-accent-text leading-relaxed">{project.description}</p>
-                            <a href={project.link} alt={project.title} target="_blank" rel="noopener noreferrer" className="fold-bold bright-accent-text underline hover:text-red-500">
+                            <a href={project.link} alt={project.title} target="_blank" rel="noopener noreferrer" className="fold-bold project-card-text underline">
                                 View The Project{" "}
                                 <span role="img" aria-label="right pointer">👉</span>
                             </a>
